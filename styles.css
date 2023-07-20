@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+
+/* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-rows:100px 100px;
+    grid-template-columns:100px 100px;
+	gap:5px 5px;
+}
+.item-1,.item-2,.item-3,.item-4{
+	color:pink;
+	background-color:green;
+}
